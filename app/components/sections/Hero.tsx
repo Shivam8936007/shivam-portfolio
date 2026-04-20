@@ -11,6 +11,7 @@ import {
   Share2,
 } from "lucide-react";
 
+
 const orbitIcons = [
   { icon: <Share2 className="h-8 w-8" />, className: "left-[15%] top-[12%]" },
   { icon: <Atom className="h-8 w-8" />, className: "right-[18%] top-[7%]" },

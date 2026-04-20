@@ -18,6 +18,7 @@ const projects = [
   },
 ];
 
+
 function ProjectCard({
   title,
   description,

@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 
+
 const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },

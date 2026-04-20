@@ -14,6 +14,7 @@ export function Experience() {
             projects and web applications.
           </p>
         </div>
+        
 
         <div className="mt-16 grid items-center gap-10 lg:grid-cols-[auto_1fr_auto]">
           <button
