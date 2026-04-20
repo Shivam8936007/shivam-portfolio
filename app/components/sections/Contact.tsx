@@ -66,18 +66,18 @@ export function Contact() {
           <div className="mt-14 space-y-9 text-white">
             <div className="flex items-center gap-5 text-[1.12rem]">
               <Mail className="h-7 w-7 text-white/85" />
-              google@gmail.com
+              shivamkumar5206@gmail.com
             </div>
             <div className="flex items-center gap-5 text-[1.12rem]">
               <Phone className="h-7 w-7 text-white/85" />
-              +92 300000000
+              +91 8936887598
             </div>
             <div className="flex items-start gap-5 text-[1.12rem]">
               <MapPin className="mt-1 h-7 w-7 text-white/85" />
               <span>
-                Lahore, Punjab,
+               Dwarka, New Delhi <br />
                 <br />
-                Pakistan
+                India
               </span>
             </div>
           </div>

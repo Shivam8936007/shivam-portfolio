@@ -38,12 +38,12 @@ export function Hero() {
             Hi, I&apos;m
           </h1>
           <h2 className="mt-4 text-[4rem] font-bold leading-[0.95] tracking-[-0.06em] sm:text-[4.8rem] lg:text-[6.1rem]">
-            <span className="blue-red-text">Sajid Yaqub</span>
+            <span className="blue-red-text">Shivam Kumar</span>
           </h2>
 
           <p className="mt-10 max-w-[39rem] text-[1.1rem] leading-[1.45] text-white/92 sm:text-[1.25rem] lg:text-[1.35rem]">
-            I build scalable full-stack applications using React, Node.js,
-            Express and MongoDB. I love clean code and fast UIs.
+            I build scalable full-stack applications using React,Next.js, Node.js,
+            Nest.js and postgress. I love clean code and fast UIs.
           </p>
 
           <div className="mt-12 flex flex-col gap-5 sm:flex-row">

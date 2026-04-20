@@ -9,7 +9,10 @@ import {
   FileCode2,
   Gauge,
   MonitorCog,
+  Send,
+  ServerCog,
   ShieldCheck,
+  // Github,
 } from "lucide-react";
 
 const skillCards = [
@@ -50,6 +53,32 @@ const skillCards = [
       "Designing REST APIs and server-side features with a clean, maintainable approach.",
     icon: <MonitorCog className="h-20 w-20 text-[#2f8fff]" />,
   },
+  /* ADD THESE INSIDE skillCards ARRAY */
+
+{
+  title: "Next.js",
+  description:
+    "Building production-ready React applications with SSR, routing, SEO, and performance optimization.",
+  icon: <FileCode2 className="h-20 w-20 text-[#2f8fff]" />,
+},
+{
+  title: "NestJS",
+  description:
+    "Developing scalable backend APIs using TypeScript, modular architecture, guards, and clean structure.",
+  icon: <ServerCog className="h-20 w-20 text-[#2f8fff]" />,
+},
+{
+  title: "Postman",
+  description:
+    "Testing APIs, validating requests/responses, and managing collections for backend development workflows.",
+  icon: <Send className="h-20 w-20 text-[#2f8fff]" />,
+},
+// {
+//   title: "GitHub",
+//   description:
+//     "Version control, collaboration, code management, and deployment workflows using Git and GitHub.",
+//   icon: <Github className="h-20 w-20 text-[#2f8fff]" />,
+// },
 ];
 
 const serviceCards = [

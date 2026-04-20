@@ -38,7 +38,7 @@ export function About() {
           <h2 className="section-title">About Me</h2>
           <div className="mt-12 space-y-10 text-[1.1rem] leading-[1.6] text-white/85 sm:text-[1.22rem]">
             <p>
-              I am a MERN Stack Web Developer focusing on building
+              I am a Full-Stack Web Developer focusing on building
               production-ready applications. I enjoy designing APIs, creating
               interactive user interfaces, and optimizing performance to deliver
               smooth and efficient user experiences.

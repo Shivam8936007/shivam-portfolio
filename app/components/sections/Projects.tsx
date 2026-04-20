@@ -5,16 +5,64 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "MERN Todo App (2025)",
+    title: "EV Charging Dashboard (2025)",
     description:
-      "A fully functional Todo application with authentication, CRUD operations, and a clean, responsive UI.",
-    tech: ["React", "Node.js", "Express.js", "Node.js"],
+      "A complete EV charging admin dashboard with analytics, session tracking, role-based access, charts, pagination, and real-time monitoring.",
+    tech: [
+      "Next.js",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "REST API",
+      "WebSocket",
+    ],
   },
   {
-    title: "E-Commerce Demo (2025)",
+    title: "EV Charging Web App (2025)",
     description:
-      "A demo e-commerce platform featuring product listing, cart system, and checkout flow.",
-    tech: ["React", "Node.js", "Express.js", "Node.js"],
+      "A responsive EV charging web application for users to locate chargers, manage charging sessions, wallets, and live status updates.",
+    tech: [
+      "Next.js",
+      "React",
+      "Redux Toolkit",
+      "API Integration",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    title: "Society Management System (2025)",
+    description:
+      "A full-stack society management platform for residents, admins, complaints, billing, notices, visitor entries, and dashboards.",
+    tech: [
+      "Next.js",
+      "NestJS",
+      "Node.js",
+      "MongoDB",
+      "Tailwind CSS",
+    ],
+  },
+  {
+    title: "Batra Utensils Website (2026)",
+    description:
+      "A premium business website built in WordPress with custom responsive UI, animated sections, lead forms, and SEO-friendly pages.",
+    tech: [
+      "WordPress",
+      "Elementor",
+      "Custom CSS",
+      "JavaScript",
+      "Responsive Design",
+    ],
+  },
+  {
+    title: "Tobor.in Landing Page (2026)",
+    description:
+      "A modern conversion-focused landing page designed in WordPress with custom layouts, mobile optimization, and clean UI sections.",
+    tech: [
+      "WordPress",
+      "Elementor",
+      "Custom CSS",
+      "Landing Page",
+      "Responsive UI",
+    ],
   },
 ];
 

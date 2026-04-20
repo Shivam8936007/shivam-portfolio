@@ -49,7 +49,7 @@ export function Navbar() {
       <div className="section-spacing">
         <div className="flex min-h-[92px] items-center justify-between gap-6">
           <a href="#home" className="text-[1.85rem] font-bold tracking-[-0.04em]">
-            <span className="blue-red-text">MERN Stack Developer</span>
+            <span className="blue-red-text">FULL Stack Developer</span>
           </a>
 
           <nav className="hidden items-center gap-14 md:flex">
