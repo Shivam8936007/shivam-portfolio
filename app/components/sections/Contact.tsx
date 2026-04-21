@@ -126,7 +126,7 @@ export function Contact() {
         </motion.div>
       </div>
 
-      <footer className="mt-24 bg-[#162243] py-20">
+      <footer className="mt-24 bg-[#162243] py-10 px-20">
         <div className="flex flex-col items-center justify-between gap-8 xl:flex-row">
           <a href="#home" className="text-[1.85rem] font-bold tracking-[-0.04em]">
             <span className="blue-red-text">MERN Stack Developer</span>
@@ -153,10 +153,7 @@ export function Contact() {
           </div>
         </div>
 
-        <div className="mt-12 h-px bg-gradient-to-r from-[#ff5864] via-[#736cf6] to-[#2d90ff]" />
-        <p className="mt-12 text-center text-[1rem] text-white/88 sm:text-[1.2rem]">
-          Copyright © 2025 Sajid Yaqub | All Rights Reserved
-        </p>
+    
       </footer>
     </section>
   );

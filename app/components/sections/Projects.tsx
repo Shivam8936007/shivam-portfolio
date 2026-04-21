@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "EV Charging Dashboard (2025)",
+    title: "EV Charging Dashboard",
+    image: "/dashboard.png",
     description:
       "A complete EV charging admin dashboard with analytics, session tracking, role-based access, charts, pagination, and real-time monitoring.",
     tech: [
@@ -17,7 +18,8 @@ const projects = [
     ],
   },
   {
-    title: "EV Charging Web App (2025)",
+    title: "EV Charging Web App",
+    image: "/web.png",
     description:
       "A responsive EV charging web application for users to locate chargers, manage charging sessions, wallets, and live status updates.",
     tech: [
@@ -30,6 +32,7 @@ const projects = [
   },
   {
     title: "Society Management System (2025)",
+    image: "/society.jpeg",
     description:
       "A full-stack society management platform for residents, admins, complaints, billing, notices, visitor entries, and dashboards.",
     tech: [
@@ -42,6 +45,7 @@ const projects = [
   },
   {
     title: "Batra Utensils Website (2026)",
+    image: "/batra.png",
     description:
       "A premium business website built in WordPress with custom responsive UI, animated sections, lead forms, and SEO-friendly pages.",
     tech: [
@@ -54,6 +58,7 @@ const projects = [
   },
   {
     title: "Tobor.in Landing Page (2026)",
+    image: "/landing.png",
     description:
       "A modern conversion-focused landing page designed in WordPress with custom layouts, mobile optimization, and clean UI sections.",
     tech: [
@@ -71,33 +76,42 @@ function ProjectCard({
   title,
   description,
   tech,
+  image,
 }: {
   title: string;
   description: string;
   tech: string[];
+  image: string;
 }) {
   return (
     <div className="gradient-border interactive-border rounded-[1.7rem]">
       <div className="gradient-panel interactive-card rounded-[1.7rem] p-8">
+
+        {/* Project Image */}
         <div className="overflow-hidden rounded-[1.5rem]">
           <div className="relative aspect-[1.42] w-full">
             <Image
-              src="/hero-bg.png"
+              src={image}
               alt={title}
               fill
-              className="object-cover opacity-90 transition-transform duration-500 hover:scale-[1.05]"
+              className="object-cover transition-transform duration-500 hover:scale-105"
             />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_82%_0%,rgba(66,238,255,0.55),transparent_18%),linear-gradient(180deg,rgba(34,61,120,0.34),rgba(7,12,29,0.22))]" />
+
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
           </div>
         </div>
 
+        {/* Title */}
         <h3 className="mt-8 text-[2.3rem] font-semibold leading-[1.12] text-white">
           {title}
         </h3>
+
+        {/* Description */}
         <p className="mt-6 max-w-[46rem] text-[1rem] leading-[1.35] text-white/88 sm:text-[1.08rem]">
           {description}
         </p>
 
+        {/* Tech Stack */}
         <div className="mt-8 flex flex-wrap gap-4">
           {tech.map((item) => (
             <span
@@ -108,6 +122,7 @@ function ProjectCard({
             </span>
           ))}
         </div>
+
       </div>
     </div>
   );
